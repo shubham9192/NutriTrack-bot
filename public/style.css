@@ -1,0 +1,103 @@
+/* Vibrant, fresh background inspired by health and wellness */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Clean, modern font */
+    background: linear-gradient(135deg, #FFDDC1 0%, #FFABAB 100%); /* Healthy, warm colors */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container with fresh, vibrant style */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px; /* More rounded corners for a friendly, app-like feel */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadows for depth */
+    width: 350px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    border: 4px solid #FF6F61; /* A touch of orange for an active, healthy vibe */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Subtle zoom on hover */
+}
+
+/* Logo or App icon can be placed here */
+.app-logo {
+    width: 80px;
+    height: 80px;
+    background: url('nutri-logo.png') no-repeat center; /* Placeholder for a logo */
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+/* Larger, vibrant header for NutriTracker */
+h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #FF6F61; /* Bright orange color */
+    letter-spacing: 1px;
+}
+
+/* Enhanced label styling */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Inputs styled with fresh colors and rounded edges */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #FFD5C2;
+    border-radius: 10px; /* Rounded edges for a modern feel */
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus on inputs with healthy green color */
+input:focus {
+    border-color: #7FB77E; /* Green border on focus */
+    box-shadow: 0 0 8px rgba(127, 183, 126, 0.3); /* Light shadow for effect */
+    outline: none;
+}
+
+/* Bright, call-to-action button with rounded edges */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF6F61; /* Bright orange button */
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button hover with a glow effect */
+button:hover {
+    background-color: #FF3D2E;
+    box-shadow: 0 8px 16px rgba(255, 61, 46, 0.3); /* Button shadow for depth */
+}
+
+/* Optional: Add subtle animations for inputs */
+input, button {
+    transition: all 0.3s ease;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 400px) {
+    .container {
+        width: 95%;
+    }
+}
